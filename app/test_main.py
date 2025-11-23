@@ -15,4 +15,4 @@ def test_get_coin_combination(coins: int, expected: list) -> None:
     result = get_coin_combination(coins)
     assert isinstance(result, list)
     assert len(result) == 4
-    assert result  == expected
+    assert result == expected
